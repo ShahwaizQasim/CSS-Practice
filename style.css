@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+::selection{
+    color: blue;
+    background-color: black;
+}
+#h1{
+   color:  blue;
+   text-align: center;
+   word-spacing: 5px;
+}
+.h2{
+    color: black;
+    text-align: center;
+    word-spacing: 5px;
+}
+.practice{
+    min-height: 200px;
+    max-height: 300px;
+    width: 500px;
+    background-color: rgba( 215, 217, 218,0.4 );
+    margin: auto;
+    overflow-y: scroll;
+}
+.practice > h1{
+    text-align: center;
+    font-family: 'Lora', serif;
+    text-decoration: underline ;
+    letter-spacing: 4px;
+    text-shadow: 2px -2px 5px #ccc;
+}
+.practice > p{
+    text-align: center;
+    line-height: 30px;
+}
+.practice > p::first-letter{
+    font-size: 40px;
+}
+.practice > p::first-line{
+    font-size: 30px;
+}
+ul>li{
+    list-style-type: none;
+}
+ul > li > a{
+    text-decoration: none;
+}
+ul > li > a:link{
+     color: aqua;
+}
+ul > li > a:visited{
+     color: brown;
+}
+.testing{
+    height: 300px;
+    width: 600px;
+    background-image: url(./istockphoto-1004293892-612x612.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.testing > h2{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+button:active{
+    border: 5px solid red;
+    background-color: aqua;
+    color: white;
+}
